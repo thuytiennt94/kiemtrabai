@@ -20,7 +20,7 @@ public class Student {
     public String getName() {
         return Name;
     }
-    
+
     public ClassRoom getMyClass() {
         return myClass;
     }

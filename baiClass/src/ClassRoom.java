@@ -1,6 +1,6 @@
 public class ClassRoom {
-    int classid;
-    String className;
+    private int classid;
+    private String className;
     public ClassRoom(){
         classid = 1;
         className = "T2109A";
