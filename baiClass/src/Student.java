@@ -17,20 +17,12 @@ public class Student {
         return RollNo;
     }
 
-    public void setRollNo(int rollNo) {
-        RollNo = rollNo;
-    }
-
     public String getName() {
         return Name;
     }
-
-    public void setName(String name) {
-        Name = name;
-    }
-
-    public void setMyClass(ClassRoom myClass) {
-        this.myClass = myClass;
+    
+    public ClassRoom getMyClass() {
+        return myClass;
     }
 
     @Override
@@ -43,8 +35,6 @@ public class Student {
         System.out.println(st);
         Student st2 = new Student(2, "Anh", new ClassRoom(2,"T2109M"));
         System.out.println(st2);
-        st2.setName("quynh");
-        st2.setRollNo(3);
-        System.out.println("ID: " + st2.getRollNo() + ", Name: " + st2.getName());
+        System.out.println(st2.getMyClass());
     }
 }
