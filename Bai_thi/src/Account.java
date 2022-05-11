@@ -22,7 +22,7 @@ public class Account {
         long money;
         int type;
         Scanner inp = new Scanner(System.in);
-        System.out.println("0.Deposit \t \t  1.Withdraw");
+        System.out.println("Type: 0.Deposit \t \t  1.Withdraw");
         type = inp.nextInt();
         System.out.println("Enter money: ");
         money = inp.nextLong();
