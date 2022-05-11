@@ -4,8 +4,6 @@ public class Account {
     private int accNumber;
     private long amount = 0;
 
-
-
     public void input() {
         Scanner inp = new Scanner(System.in);
         do {
@@ -24,7 +22,6 @@ public class Account {
         long money;
         int type;
         Scanner inp = new Scanner(System.in);
-        System.out.println("What service do you want:");
         System.out.println("0.Deposit \t \t  1.Withdraw");
         type = inp.nextInt();
         System.out.println("Enter money: ");
